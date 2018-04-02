@@ -9,19 +9,19 @@ The assignment is due Apr 19th at 2:59:59 PM (before the class starts).
 
 ## Getting started
 
-We will be distributing assignments with git. You can find the repository for this assignment at https://github.com/cs248-spring-2017/DrawSVG.git. If you are unfamiliar with git, here is what you need to do to get the starter code:
+We will be distributing assignments with git. You can find the repository for this assignment at https://github.com/cs248-spring-2018/DrawSVG.git. If you are unfamiliar with git, here is what you need to do to get the starter code:
 
 ```
-$ git clone https://github.com/cs248-spring-2017/DrawSVG.git
+$ git clone https://github.com/cs248-spring-2018/DrawSVG.git
 ```
 
-If you are using Windows, you can use [TortoiseGit](https://tortoisegit.org/). After installing it, right-click on the directory of your choice and click `Git Clone...` to perform the same operation (put `https://github.com/cs248-spring-2017/DrawSVG.git` inside of `URL` box).
+If you are using Windows, you can use [TortoiseGit](https://tortoisegit.org/). After installing it, right-click on the directory of your choice and click `Git Clone...` to perform the same operation (put `https://github.com/cs248-spring-2018/DrawSVG.git` inside of `URL` box).
 This will create a folder with all the source files.
 
 ### Build Instructions
 
 In order to ease the process of running on different platforms, we will be using [CMake](http://www.cmake.org/) for our assignments. You will need a CMake installation of version 2.8+ to build the code for this assignment. It should also be relatively easy to build the assignment and work locally on your OSX or 64-bit version of Linux or Windows.
-The project can be run by SSH'ing to rice.stanford.edu with your SUNet ID, password, and two-step authentication using putty or MobaXterm (remember to turn on X11 forwarding). If you choose to do so, you can skip over to [this step](https://github.com/cs248-spring-2017/DrawSVG#to-build-your-code-for-this-assignment).
+The project can be run by SSH'ing to rice.stanford.edu with your SUNet ID, password, and two-step authentication using putty or MobaXterm (remember to turn on X11 forwarding). If you choose to do so, you can skip over to [this step](https://github.com/cs248-spring-2018/DrawSVG#to-build-your-code-for-this-assignment).
 
 #### OS X/Linux Build Instructions
 
