@@ -4,6 +4,9 @@
 
 In this project, you will implement a simple software rasterizer that draws points, lines, triangles, and bitmap images. When you are done, you will have a viewer that supports the basic features of the Scalable Vector Graphics (SVG) format that is now widely used on the internet.
 
+### Due date
+The assignment is due Apr 19th at 2:59:59 PM (before the class starts).
+
 ## Getting started
 
 We will be distributing assignments with git. You can find the repository for this assignment at https://github.com/cs248-spring-2017/DrawSVG.git. If you are unfamiliar with git, here is what you need to do to get the starter code:
