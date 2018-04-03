@@ -7,6 +7,9 @@ In this project, you will implement a simple software rasterizer that draws poin
 ### Due date
 The assignment is due Apr 19th at 2:59:59 PM (before the class starts).
 
+## Submission instruction
+Zip your source directory (please delete build directory to reduce the file size), and send your zipped file to cs248stanford@gmail.com
+
 ## Getting started
 
 We will be distributing assignments with git. You can find the repository for this assignment at https://github.com/cs248-spring-2018/DrawSVG.git. If you are unfamiliar with git, here is what you need to do to get the starter code:
