@@ -33,21 +33,21 @@ If you are working on OS X and do not have CMake installed, we recommend install
 
 If you are working on Linux, you should be able to install dependencies with your system's package manager as needed (you may need cmake and freetype, and possibly others).
 
-##### To install freetype:
+##### To install freetype on Linux:
 
 ```
 $ sudo apt-get install libfreetype6
 $ sudo apt-get install libfreetype6-dev
 ```
 
-##### To install other possible dependencies (RandR, etc):
+##### To install other possible dependencies (RandR, etc) on Linux:
 
 ```
 $ sudo apt-get install libglu1-mesa-dev
 $ sudo apt-get install xorg-dev
 ```
 
-##### To build your code for this assignment:
+##### To build your code for this assignment on OS X or Linux:
 
 ```
 $ cd DrawSVG && mkdir build && cd build
