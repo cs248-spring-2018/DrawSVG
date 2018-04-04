@@ -4,11 +4,11 @@
 
 In this project, you will implement a simple software rasterizer that draws points, lines, triangles, and bitmap images. When you are done, you will have a viewer that supports the basic features of the Scalable Vector Graphics (SVG) format that is now widely used on the internet.
 
-### Due date
-The assignment is due Apr 19th at 2:59:59 PM (before the class starts).
+## Due date
+The assignment is due Apr 19th at 11:59:59 PM.
 
 ## Submission instruction
-Zip your source directory (please delete build directory to reduce the file size), and send your zipped file to cs248stanford@gmail.com
+Zip your assignment directory (please delete build directory to reduce the file size), and upload your zipped file to [Canvas](https://canvas.stanford.edu). You can click on the Dashboard tab on the left bar to select Interactive Computer Graphics.
 
 ## Getting started
 
