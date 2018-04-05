@@ -1,4 +1,4 @@
-# SVG Rasterizer
+# Stanford CS248 Assignment 1: SVG Rasterizer
 
 ## Overview
 
