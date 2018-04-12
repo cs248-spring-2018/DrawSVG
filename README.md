@@ -63,7 +63,7 @@ You need to install the latest version of [CMake](http://www.cmake.org/) and [Vi
 
 ![Sample locations](misc/cmake_initial_setup.png?raw=true)
 
-Then, press `Configure` button, select proper version of Visual Studio (You should probably select Win64), and you should see `Configuring done` message. Then, press `Generate` button and you should see `Generating done`.
+Then, press `Configure` button, select proper version of Visual Studio (**You should probably select Win64**), and you should see `Configuring done` message. Then, press `Generate` button and you should see `Generating done`.
 
 ![Sample locations](misc/cmake_final_setup.png?raw=true)
 
