@@ -86,7 +86,7 @@ When you have successfully built your code, you will get an executable named **d
 
 When you first run the application, you will see a picture of a flower made of a bunch of blue points. The starter code that you must modify is drawing these points. Now press the R key to toggle display to the staff's reference solution to this assignment.
 
-While looking at the reference solution, hold down your primary mouse button (left button) and drag the cursor to pan the view. You can also use scroll wheel to zoom the view. (You can always hit SPACE to reset the viewport to the default view conditions). You can also compare the output of your implementation with that of the reference implementation. To toggle the diff view, press D. We have also provided you with a "pixel-inspector" view to examine pixel-level details of the currently displayed implementation more clearly. The pixel inspector is toggled with the Z key.
+While looking at the reference solution, hold down your primary mouse button (left button) and drag the cursor to pan the view. Cursor location will be printed as a debugging utility to console when you click with your primary mouse button. You can also use scroll wheel to zoom the view. (You can always hit SPACE to reset the viewport to the default view conditions). You can also compare the output of your implementation with that of the reference implementation. To toggle the diff view, press D. We have also provided you with a "pixel-inspector" view to examine pixel-level details of the currently displayed implementation more clearly. The pixel inspector is toggled with the Z key.
 
 For convenience, `drawsvg` can also accept a path to a directory that contains multiple SVG files. To load files from `svg/basic`:
 
@@ -112,6 +112,7 @@ A table of all the keyboard controls in the **draw** application is provided bel
 | Toggle text overlay                      |   `   |
 | Toggle pixel inspector view              |   Z   |
 | Toggle image diff view                   |   D   |
+| Normalize image diff view while pressed  | SHIFT |
 | Reset viewport to default position       | SPACE |
 
 ### What You Need to Do

@@ -61,6 +61,7 @@ class DrawSVG : public Renderer {
 
   void resize( size_t width, size_t height );
 
+  void keyboard_event(int key, int event, unsigned char mods);
   void char_event( unsigned int key );
   void mouse_event(int key, int event, unsigned char mods);
   void cursor_event( float x, float y );
@@ -154,6 +155,7 @@ class DrawSVG : public Renderer {
   
   /* diff */
   bool show_diff;
+  bool normalize_diff;
   void draw_diff();
   
   /* zoom */
