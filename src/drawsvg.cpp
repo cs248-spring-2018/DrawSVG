@@ -242,6 +242,7 @@ void DrawSVG::mouse_event(int key, int event, unsigned char mods) {
     case EVENT_PRESS:
       switch(key) {
         case MOUSE_LEFT:
+          std::cout << "Cursor location (x, y) = (" << cursor_x << ", " << cursor_y << ")" << std::endl;
           leftDown = true;
           break;
       }
@@ -260,13 +261,7 @@ void DrawSVG::cursor_event( float x, float y ) {
   
   // translate when left mouse button is held down
   // diff is disabled when panning - it's too slow
-  static bool printed = false;
   if (leftDown) {
-    if(!printed) {
-      std::cout << "Cursor location (x, y) = (" << x << ", " << y << ")" << std::endl;
-      printed = true;
-    }
-  
     show_diff = false;
 
 	float dx = (x - cursor_x) / width  * tabs[current_tab]->width;
@@ -274,7 +269,7 @@ void DrawSVG::cursor_event( float x, float y ) {
     viewport_imp[current_tab]->update_viewbox(dx, dy, 1);
     viewport_ref[current_tab]->update_viewbox(dx, dy, 1);
     redraw();
-  } else printed = false;
+  }
   
   // register new cursor location
   cursor_x = x;
@@ -285,6 +280,7 @@ void DrawSVG::scroll_event( float offset_x, float offset_y ) {
   // diff is disabled when zooming - it's too slow
   if (offset_x || offset_y) {
     show_diff = false;
+
 	// prevent inverting axis when scrolling too fast
     float scale = 1 + 0.05 * offset_x + 0.05 * offset_y;
     scale = scale < 0.5 ? 0.5 : (scale > 1.5 ? 1.5 : scale); 
